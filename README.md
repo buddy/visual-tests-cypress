@@ -10,7 +10,7 @@ A Cypress plugin for performing visual testing using Buddy Works Visual Testing.
 ## Installation
 
 ```bash
-npm install -D @buddy-works/cypress
+npm install -D @buddy-works/visual-tests-cypress
 ```
 
 ## Setup
@@ -19,7 +19,7 @@ Add the plugin to your Cypress support file so the custom command is registered:
 
 ```js
 // cypress/support/e2e.js
-import "@buddy-works/cypress";
+import "@buddy-works/visual-tests-cypress";
 ```
 
 ## Basic example
