@@ -2,7 +2,19 @@
   "name": "@buddy-works/visual-tests-cypress",
   "version": "0.1.0",
   "description": "Buddy Visual Tests Cypress Plugin",
+  "keywords": [
+    "cypress",
+    "cypress-plugin",
+    "visual-testing",
+    "visual-regression",
+    "screenshot-testing",
+    "snapshot-testing",
+    "ui-testing",
+    "e2e-testing",
+    "buddy"
+  ],
   "main": "plugin/commands.js",
+  "types": "plugin/types/index.d.ts",
   "files": [
     "plugin"
   ],

@@ -30,10 +30,7 @@ interface ISnapshotOptions {
 declare global {
   namespace Cypress {
     interface Chainable<Subject> {
-      takeSnapshot(
-        name: string,
-        options?: ISnapshotOptions,
-      ): Chainable<Subject>;
+      takeSnap(name: string, options?: ISnapshotOptions): Chainable<Subject>;
     }
   }
 }
