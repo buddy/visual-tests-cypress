@@ -1,6 +1,6 @@
 {
   "name": "@buddy-works/visual-tests-cypress",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Buddy Visual Tests Cypress Plugin",
   "keywords": [
     "cypress",
