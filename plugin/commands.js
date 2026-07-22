@@ -31,7 +31,7 @@ Cypress.Commands.add(
       })
       .url()
       .then(async (url) => {
-        if (!global.SNAPSHOT) {
+        if (!globalThis.SNAPSHOT) {
           const response = await fetch("http://localhost:1337/parseDom.js", {
             method: "GET",
             mode: "cors",
@@ -45,7 +45,7 @@ Cypress.Commands.add(
           eval(parseDomFile);
         }
 
-        const { title, html, resources } = global.SNAPSHOT.parseDom(
+        const { title, html, resources } = globalThis.SNAPSHOT.parseDom(
           currentDom,
           enableJavaScript,
         );
