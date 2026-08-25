@@ -1,0 +1,4 @@
+allowBuilds:
+  esbuild: false
+  cypress: false
+minimumReleaseAge: 1440

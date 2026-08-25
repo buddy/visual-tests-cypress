@@ -1,3 +1,9 @@
 node_modules/
+dist/
+.pnpm-store/
+examples/node_modules
+examples/cypress/videos
+examples/cypress/screenshots
+examples/cypress/downloads
 .idea
 .DS_Store

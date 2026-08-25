@@ -1,0 +1,17 @@
+{
+  "name": "visual-tests-cypress-plugin-example",
+  "version": "0.1.0",
+  "description": "Buddy Visual Tests Cypress Plugin example",
+  "type": "module",
+  "scripts": {
+    "test": "bdy tests visual session create \"cypress run\""
+  },
+  "dependencies": {
+    "@buddy-works/visual-tests-cypress": "link:.."
+  },
+  "devDependencies": {
+    "cypress": "15.21.0",
+    "bdy": "1.24.0",
+    "typescript": "7.0.2"
+  }
+}
